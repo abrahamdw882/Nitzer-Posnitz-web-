@@ -19,4 +19,6 @@ def main():
 
 
 if __name__ == '__main__':
+    from django.core.management import call_command
+       call_command('runserver', '0.0.0.0:8000')
     main()
